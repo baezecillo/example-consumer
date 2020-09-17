@@ -6,7 +6,7 @@ services:
 env:
   global:
   - REACT_APP_API_BASE_URL=http://localhost:8080
-  - PACT_BROKER_BASE_URL=https://mbaez.pactflow.io/
+  - PACT_BROKER_BASE_URL=https://mbaez.pactflow.io
   # PACT_BROKER_TOKEN is encrypted below
   - secure: "V4XJJ/vROtlmmrDrCWAj4dZ4iKS2b1enMn4vkS7cV6zqRGc+VieE6EQlz8fLHP0vqJKJuKKSvQV/zL4Ft6wWou1gb+noNYUIjRQmERG5vKW0HXNobYrmhmBZG2/xIy5wBDUY/8WtJgLpWGamaVLUr29JuwIc7xQb5G1g1F2SkiW1f/Get8TmKV73zXMmeV0Y/IcN+IPkZOhoDLk1HErmOeLM5dptw1GFkxGW/jDs7dxiVGXoFDrxFRQRL/RijfHaFt1Z9em2LabtKedZ6gj/EN8MLb8QNfV2qSGd2syVEaXmmvQrlWXYHsjpO2CZAJzR0m7+y/KApshl5id7Yen5bamLfNvz717KdWdvRrUtev+KlF13vtuUtnBnJQCdPdAgcA9NCvm6xpKaBCz8ntEQCrRem7l16C72W7ANIrffpN53twatu0oqP6ApHFpobTgHt86XE+KXQL7sj9Zn3L5KVNKVxthnt9T6BVB0a6o3+ntBzIRGnetkq22etUldr/zdL+bBDn+RflRUlx/S0WRh6A7ZBz9K0yEBbLRDnlnzCnN/+4pBnyB2aw/KpPX2oQ/7Yr5L7hc8yWoJ1QzYHPHpEi3j1s2ey3C6z3bS7krA+NK11m1tqElvImawYmYDV+toXDiLbp2bJWTqa47ZD72rjnhPH2wgd7AzMKl0IrMT4aQ="
 before_script:
